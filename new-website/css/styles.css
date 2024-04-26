@@ -2,4 +2,38 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
   }
+#header-nav {
+  background-color: #2bc800;
+  color: black;
+}
+
+.navbar-brand a:focus , .navbar-brand a:hover {
+  text-decoration: none;
+}
+.navbar-brand p {
+  font-size: 1.5em;
+}
+
+.navbar-brand h1 {
+  color:black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4em;
+  line-height: 1;
+}
+#logo-img {
+  background: url("../images/wincrave.jpg") no-repeat;
+  width: 176px;
+  height: 176px;
+  margin: 20px;
+  scale:0.8;
+
+}
+
+.navbar-brand {
+  padding-top:60px;
+}
