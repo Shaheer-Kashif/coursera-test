@@ -1,0 +1,27 @@
+
+nav li a, #all-boxes {
+    text-align: center;
+}
+
+nav li {
+    background-color: #ffb38a;
+    border: 2px solid black;
+}
+
+div h2{
+    margin-top: 20px;
+}
+
+#all-boxes div {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: #FFD580;
+}
+
+@media (min-width: 991px) {
+    div.navbar-collapse{
+        visibility:hidden;
+    }
+}
+
+

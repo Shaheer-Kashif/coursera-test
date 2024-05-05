@@ -63,6 +63,18 @@ ul.navbar-nav a
 }
 
 
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    background: url("../images/Jumbotron-XS.png") no-repeat;
+    height: 875px;
+    box-shadow: 10px black;
+
+  }
+
+}
+
+
 /*
  .navbar-brand {
   position: relative;
